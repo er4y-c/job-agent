@@ -13,20 +13,23 @@ st.markdown("""
 <style>
     .main {
         padding: 0rem 0rem;
-        color: #2c3e50;
+        color: #71717a;
     }
     .stApp {
         background-color: #f5f5f5;
-        color: #2c3e50;
+        color: #71717a;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #2c3e50;
+        color: #71717a;
     }
-    p, div, span, label {
-        color: #2c3e50;
+    p, span, label {
+        color: #71717a;
+    }
+    div {
+        color: #71717a;
     }
     .stMarkdown {
-        color: #2c3e50;
+        color: #71717a;
     }
     .stButton > button {
         background-color: #3498db;
@@ -37,13 +40,13 @@ st.markdown("""
     }
     /* Ensure text inputs and other form elements have dark text */
     .stTextInput > div > div > input {
-        color: #2c3e50;
+        color: #71717a;
     }
     .stSelectbox > div > div > div {
-        color: #2c3e50;
+        color: #71717a;
     }
     .stTextArea > div > div > textarea {
-        color: #2c3e50;
+        color: #71717a;
     }
 </style>
 """, unsafe_allow_html=True)
